@@ -22,8 +22,8 @@ export class AppComponent implements OnInit {
     });
     const view = new MapView({
       container: 'viewDiv',
-      center: [-98.8, 31.3], //Longitude, Latitude
-      zoom: 5,
+      center: [-4.6417656, 57.2741432], //Longitude, Latitude
+      zoom: 11,
       map,
     });
 

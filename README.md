@@ -23,7 +23,8 @@
 
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
 * [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
-* RxJS subscriptions objects used to represents the execution of observables
+* [Esri Small Modal](https://esri.github.io/calcite-components/?path=/story/components-modal--simple) used for short confirmation dialog
+* RxJS subscriptions objects used to represent the execution of observables
 
 ## :camera: Screenshots
 
