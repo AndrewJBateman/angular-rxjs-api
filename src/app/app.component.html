@@ -1,37 +1,10 @@
-<div id="viewDiv"></div>
-<!-- <calcite-modal
-  #myModal
-  aria-labelledby="modal-title"
-  active=""
-  color="null"
-  background-color="white"
-  scale="m"
-  width="s"
-  close-label="Close"
->
-  <h3 slot="header">Small Modal</h3>
-  <div slot="content">
-    <p>A small modal</p>
-  </div>
-  <calcite-button
-    slot="back"
-    color="neutral"
-    appearance="outline"
-    icon="chevron-left"
-    width="full"
-    (click)="myModal.click()"
-  >
-    Back
-  </calcite-button>
-  <calcite-button
-    slot="secondary"
-    width="full"
-    (click)="myModal.click()"
-    appearance="outline"
-  >
-    Cancel
-  </calcite-button>
-  <calcite-button slot="primary" (click)="myModal.click()" width="full"
-    >Save</calcite-button
-  >
-</calcite-modal> -->
+<div class="container">
+  <header>
+    <h4 class="title">WikiSearch</h4>
+    <p class="sub-title">Encyclopedia</p>
+  </header>
+  <app-search (submitted)="onSearch($event)"></app-search>
+  <ng-container *ngFor="let article of articles$ | async">
+    <app-article-card [article]="article"></app-article-card>
+  </ng-container>
+</div>
