@@ -1,65 +1,58 @@
-# :zap: angular-arcgis-mapping
+# :zap: Angular RxJS API
 
-* Angular app using RxJS operators and the ArcGIS API mapping solution from [Esri](https://www.esri.com/en-us/home) with [Esri calcite-components](https://github.com/Esri/calcite-components)
+* Angular app to fetch Wikipedia API data and display it on cards using asynchronous reactive programming observables
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-rxjs-api?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-rxjs-api?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-rxjs-api?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-rxjs-api?style=plastic)
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular RxJS ArcGIS](#zap-angular-rxjs-arcgis)
+* [:zap: Angular RxJS API](#zap-angular-rxjs-api)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
-  * [:flashlight: Testing](#flashlight-testing)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
-* [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
-* [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
-* [Esri Small Modal](https://esri.github.io/calcite-components/?path=/story/components-modal--simple) used for short confirmation dialog
-* RxJS subscriptions objects used to represent the execution of observables
+* Displays Wikipedia API JSON search data
+* Wikipedia API does not require an API key
+* [RxJS pluck operator](https://www.learnrxjs.io/learn-rxjs/operators/transformation/pluck) used
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/map.jpg)
+![screenshot](./imgs/wiki.png)
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
-* [Angular Formcontrol](https://angular.io/api/forms/FormControl)
-* [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
-
-* [ApplicationBase](https://github.com/Esri/application-base-js)
-* [ArcGIS 4.x JS API w/ESM](https://developers.arcgis.com/javascript/latest/es-modules)
-* [Esri-loader v3](https://github.com/Esri/esri-loader) library to use the ArcGIS API for JavaScript
-* [ArcGIS API for JavaScript v4](https://developers.arcgis.com/javascript/) mapping and analytics software
-* [@types/arcgis-js-api v4](https://www.npmjs.com/package/@types/arcgis-js-api) type definitions for ArcGIS API for JavaScript
-
-* [Esri calcite-components v1](https://www.npmjs.com/package/@esri/calcite-components) Shared Web Components for Esri's Calcite design framework.
-* [Calcite Web css framework v1](https://esri.github.io/calcite-web/documentation/) a web adaptation of Calcite, the desktop framework developed for ArcGIS Pro. Referenced directly from the CDN in `src/styles.css`
+* [Angular v13](https://angular.io/) Javascript framework
+* [Rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
+* [Wikipedia API](https://www.mediawiki.org/wiki/API:Tutorial)
+* [json2ts](http://json2ts.com/) used to generate TypeScript interfaces from JSON
 
 ## :floppy_disk: Setup
 
-* Install dependencies by running `npm i`
-* Run `ng test` for Jasmine tests carried out in Karma console
-* Run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
-* The app will automatically reload if you change any of the source files
+* Install dependencies using `npm i`
+* Run `ng serve` for a dev server. Frontend will open at `http://localhost:4200/` - refreshes on code changes
 
-## :flashlight: Testing
+## :wrench: Testing
 
-* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Run `ng test` to run Jasmine unit tests via [Karma](https://karma-runner.github.io)
 * Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## :computer: Code Examples
 
-* extract from ``
+* tba
 
 ```typescript
 
@@ -67,18 +60,23 @@
 
 ## :cool: Features
 
-* map view pan function
+*
 
-## :clipboard: Status & To-Do List
+## :clipboard: Status, Testing & To-Do List
 
-* Status: In work
-* To-Do: Complete
+* Status: Working
+* Testing: tba
+* To-Do: Add tailwind, add card for each article (title, snippet) & search form. Add routing? nav-bar
 
 ## :clap: Inspiration
 
-* [ArcGIS API for JavaScript: Building Apps with Angular](https://www.youtube.com/watch?v=ea4D-qGU0_0)
-* [Calcite components](https://github.com/Esri/calcite-components)
-* [Esri config example](https://github.com/Esri/application-base-js)
+* [How to Structure Angular Apps in 2021](https://javascript.plainenglish.io/how-to-structure-angular-apps-in-2021-a0bdd481ad0d)
+* [How do I display HTML inside an Angular binding?](https://blog.briebug.com/blog/how-do-i-display-html-inside-an-angular-binding)
+
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
