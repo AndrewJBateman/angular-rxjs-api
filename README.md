@@ -32,13 +32,13 @@
 
 ## :camera: Screenshots
 
-![screenshot](./imgs/search.png)
+![screenshot](./img/search.png)
 
 ## :signal_strength: Technologies
 
 * [Angular v13](https://angular.io/) Javascript framework
 * [Rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
-* [Tailwind CSS v2](https://tailwindcss.com/)
+* [Tailwind CSS v2](https://tailwindcss.com/) styling, minimises build bundle size
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Tutorial)
 * [json2ts](http://json2ts.com/) used to generate TypeScript interfaces from JSON
 
