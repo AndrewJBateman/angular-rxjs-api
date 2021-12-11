@@ -1,6 +1,7 @@
 # :zap: Angular RxJS API
 
 * Angular app to fetch Wikipedia API data and display it on cards using asynchronous reactive programming observables
+* Tailwind styling used for input form and search results cards
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-rxjs-api?style=plastic)
@@ -31,12 +32,13 @@
 
 ## :camera: Screenshots
 
-![screenshot](./imgs/wiki.png)
+![screenshot](./imgs/search.png)
 
 ## :signal_strength: Technologies
 
 * [Angular v13](https://angular.io/) Javascript framework
 * [Rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
+* [Tailwind CSS v2](https://tailwindcss.com/)
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Tutorial)
 * [json2ts](http://json2ts.com/) used to generate TypeScript interfaces from JSON
 
@@ -66,12 +68,13 @@
 
 * Status: Working
 * Testing: tba
-* To-Do: Add tailwind, add card for each article (title, snippet) & search form. Add routing? nav-bar
+* To-Do: Tailwind title styles. Add routing? nav-bar
 
 ## :clap: Inspiration
 
 * [How to Structure Angular Apps in 2021](https://javascript.plainenglish.io/how-to-structure-angular-apps-in-2021-a0bdd481ad0d)
 * [How do I display HTML inside an Angular binding?](https://blog.briebug.com/blog/how-do-i-display-html-inside-an-angular-binding)
+* [dev.to: Setup TailwindCSS in Angular the easy way](https://dev.to/angular/setup-tailwindcss-in-angular-the-easy-way-1i5l)
 
 ## :file_folder: License
 
