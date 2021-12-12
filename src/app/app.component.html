@@ -1,8 +1,5 @@
 <div class="container">
-  <header>
-    <h4 class="title">WikiSearch</h4>
-    <p class="sub-title">Encyclopedia</p>
-  </header>
+  <h1 class="m-3">Wiki Search Panel</h1>
   <app-search (submitted)="onSearch($event)"></app-search>
   <ng-container *ngFor="let article of articles$ | async">
     <app-article-card [article]="article"></app-article-card>
