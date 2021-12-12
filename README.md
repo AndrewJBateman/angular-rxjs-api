@@ -1,7 +1,7 @@
 # :zap: Angular RxJS API
 
 * Angular app to fetch Wikipedia API data and display it on cards using asynchronous reactive programming observables
-* Tailwind styling used for input form and search results cards
+* Tailwind styling used for search form and search results cards
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-rxjs-api?style=plastic)
@@ -32,7 +32,7 @@
 
 ## :camera: Screenshots
 
-![screenshot](./img/search.png)
+![screenshot](./img/searchpanel.png)
 
 ## :signal_strength: Technologies
 
@@ -54,21 +54,26 @@
 
 ## :computer: Code Examples
 
-* tba
+* Article card using Tailwind CSS styling and data-binding of search results
 
 ```typescript
-
+<article class="flex flex-wrap max-w-xl mx-auto shadow-lg md:flex-nowrap">
+  <div class="p-4 my-auto">
+    <h1 class="text-2xl font-semibold text-gray-800">{{ article.title }}</h1>
+    <p class="mt-2 text-base text-gray-600" [innerHTML]="article.snippet">
+    </p>
+  </div>
+</article>
 ```
 
 ## :cool: Features
 
-*
+* Small build bundle size due to Tailwind styles
 
 ## :clipboard: Status, Testing & To-Do List
 
 * Status: Working
-* Testing: tba
-* To-Do: Tailwind title styles. Add routing? nav-bar
+* To-Do: Optional nav-bar and about/contact pages
 
 ## :clap: Inspiration
 
