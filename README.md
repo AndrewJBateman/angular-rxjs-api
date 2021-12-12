@@ -46,11 +46,11 @@
 
 * Install dependencies using `npm i`
 * Run `ng serve` for a dev server. Frontend will open at `http://localhost:4200/` - refreshes on code changes
+* Run `npm run build` to create build folder
 
 ## :wrench: Testing
 
-* Run `ng test` to run Jasmine unit tests via [Karma](https://karma-runner.github.io)
-* Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Run `ng test` to run Jasmine unit tests via [Karma](https://karma-runner.github.io). Testing not set up
 
 ## :computer: Code Examples
 
@@ -68,11 +68,11 @@
 
 ## :cool: Features
 
-* Small build bundle size due to Tailwind styles
+* Small build bundle size due to Tailwind styles (288kB)
 
 ## :clipboard: Status, Testing & To-Do List
 
-* Status: Working
+* Status: Working. Deployed to Github pages
 * To-Do: Optional nav-bar and about/contact pages
 
 ## :clap: Inspiration
