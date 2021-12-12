@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  api: 'https://en.wikipedia.org/w/api.php'
 };

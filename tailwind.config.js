@@ -1,7 +1,7 @@
 module.exports = {
   prefix: "",
-  purge: { content: ["./src/**/*.{html,ts}"] },
-  darkMode: 'class', // or 'media' or 'class'
+  purge: { enabled: true, content: ["./src/**/*.{html,ts}"] },
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
