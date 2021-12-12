@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Observable, pipe, tap } from 'rxjs';
+import { Observable } from 'rxjs';
 import { SearchService } from './core/services/search.service';
 import { Article } from './core/interfaces/article.interface';
 
