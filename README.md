@@ -17,9 +17,10 @@
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:wrench: Testing](#wrench-testing)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clipboard: Status, Testing & To-Do List](#clipboard-status-testing--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
   * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
@@ -36,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/) Javascript framework
+* [Angular v14](https://angular.io/) Javascript framework
 * [Rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
-* [Tailwind CSS v2](https://tailwindcss.com/) styling, minimises build bundle size
+* [Tailwind CSS v3](https://tailwindcss.com/) styling, minimises build bundle size
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Tutorial)
 * [json2ts](http://json2ts.com/) used to generate TypeScript interfaces from JSON
 
@@ -46,11 +47,11 @@
 
 * Install dependencies using `npm i`
 * Run `ng serve` for a dev server. Frontend will open at `http://localhost:4200/` - refreshes on code changes
+* Run `npm run build` to create build folder
 
 ## :wrench: Testing
 
-* Run `ng test` to run Jasmine unit tests via [Karma](https://karma-runner.github.io)
-* Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Run `ng test` to run Jasmine unit tests via [Karma](https://karma-runner.github.io). Testing not set up
 
 ## :computer: Code Examples
 
@@ -68,11 +69,11 @@
 
 ## :cool: Features
 
-* Small build bundle size due to Tailwind styles
+* Small build bundle size due to Tailwind styles (288kB)
 
 ## :clipboard: Status, Testing & To-Do List
 
-* Status: Working
+* Status: Working. Deployed to Github pages
 * To-Do: Optional nav-bar and about/contact pages
 
 ## :clap: Inspiration
