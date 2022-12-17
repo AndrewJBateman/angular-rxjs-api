@@ -37,7 +37,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14](https://angular.io/) Javascript framework
+* [Angular v15](https://angular.io/) Javascript framework
 * [Rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
 * [Tailwind CSS v3](https://tailwindcss.com/) styling, minimises build bundle size
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Tutorial)
