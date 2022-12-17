@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { pluck } from 'rxjs/operators';
+import { map, pluck, tap } from 'rxjs/operators';
 
 import { environment } from 'src/environments/environment';
 import { WikipediaResponse, Article } from '../interfaces/article.interface';
@@ -10,7 +10,7 @@ import { WikipediaResponse, Article } from '../interfaces/article.interface';
   providedIn: 'root',
 })
 export class SearchService {
-  constructor(private readonly http: HttpClient) {}
+  constructor(private readonly http: HttpClient) { }
 
   search(term: string): Observable<Article[]> {
     const params = {
@@ -23,6 +23,9 @@ export class SearchService {
     };
     return this.http
       .get<WikipediaResponse>(environment.api, { params })
-      .pipe(pluck('query', 'search'));
+      .pipe(
+        // tap(x => console.log(`query`, x.query.search)),
+        map(x => x.query.search)
+      )
   }
 }

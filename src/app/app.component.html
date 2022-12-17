@@ -1,7 +1,0 @@
-<div class="container">
-  <h1 class="m-3">Wiki Search Panel</h1>
-  <app-search (submitted)="onSearch($event)"></app-search>
-  <ng-container *ngFor="let article of articles$ | async">
-    <app-article-card [article]="article"></app-article-card>
-  </ng-container>
-</div>
