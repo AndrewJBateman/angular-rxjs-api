@@ -12,17 +12,17 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular RxJS API](#zap-angular-rxjs-api)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:page\_facing\_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:signal\_strength: Technologies](#signal_strength-technologies)
+  * [:floppy\_disk: Setup](#floppy_disk-setup)
   * [:wrench: Testing](#wrench-testing)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status, Testing & To-Do List](#clipboard-status-testing--to-do-list)
+  * [:clipboard: Status, Testing \& To-Do List](#clipboard-status-testing--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
-  * [:file_folder: License](#file_folder-license)
+  * [:file\_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -37,11 +37,10 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v15](https://angular.io/) Javascript framework
+* [Angular v16](https://angular.io/) Javascript framework
 * [Rxjs v7](https://rxjs.dev/) Reactive Extensions Library for JavaScript
 * [Tailwind CSS v3](https://tailwindcss.com/) styling, minimises build bundle size
 * [Wikipedia API](https://www.mediawiki.org/wiki/API:Tutorial)
-* [json2ts](http://json2ts.com/) used to generate TypeScript interfaces from JSON
 
 ## :floppy_disk: Setup
 
@@ -88,4 +87,4 @@
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@gmail.com`
