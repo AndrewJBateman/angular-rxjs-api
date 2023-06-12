@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { map, pluck, tap } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 import { environment } from 'src/environments/environment';
 import { WikipediaResponse, Article } from '../interfaces/article.interface';
@@ -24,7 +24,6 @@ export class SearchService {
     return this.http
       .get<WikipediaResponse>(environment.api, { params })
       .pipe(
-        // tap(x => console.log(`query`, x.query.search)),
         map(x => x.query.search)
       )
   }
